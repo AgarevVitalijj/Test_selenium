@@ -1,0 +1,13 @@
+{
+   "chrome": {
+		"default": "99",
+		"versions": {
+			"99": {
+				"image": "selenoid/vnc_chrome:99.0",
+				"port": "4444",
+				"tmpfs": {"/tmp":"size=512m"},
+				"screenResolution": "1920x1080x24"
+			}
+		}
+	}
+}
